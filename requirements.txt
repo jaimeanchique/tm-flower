@@ -1,4 +1,4 @@
 requests==2.22.0
-numpy==1.15.0
-scikit-Learn==0.21.3
+numpy==1.24.1
+scikit-Learn==1.2.2
 Flask>=1.1.1
