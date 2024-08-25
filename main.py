@@ -10,7 +10,7 @@ model_pk = pickle.load(open("flower-v1.pkl", "rb"))
 @app.route('/api_predict', methods=["GET", "POST"])
 def api_predict():
     if request.method == "GET":
-        return "PLEASE Send POST request"
+        return "Send POST request PLEASE"
     elif request.method == "POST":
 
         //print("Hello" + str(request.get_json()))
