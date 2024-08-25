@@ -19,7 +19,7 @@ def api_predict():
         #sepal_length = data['sepal_length']
         #sepal_width = data['sepal_width']
         #petal_length = data['petal_length']
-        #pepal_width = data['petal_width']
+        #petal_width = data['petal_width']
 
         sepal_length = request.form.get('sepal_length')
         sepal_width = request.form.get('sepal_width')
@@ -27,7 +27,7 @@ def api_predict():
         petal_width = request.form.get('petal_width')
 
         
-        in1 = np.array([[sepal_length, sepal_width, petal_length, pepal_width]])
+        in1 = np.array([[sepal_length, sepal_width, petal_length, petal_width]])
 
         prediction = model_pk.predict(in1)
 
